@@ -1,0 +1,49 @@
+<odoo>
+    <template id="3_latest_blogs" name="3 Blogs Snippet">
+        <section class="dynamic_snippet_blog s_three_columns o_cc o_cc2 o_colored_level pt0 pb0" style="background-image:none">
+            <div class="container">
+                <div class="row d-flex align-items-stretch" id="blogsssss">
+                    <div class="col-lg-4 s_col_no_bgcolor pb0 pt176 o_animate o_anim_bounce_in o_visible o_animated"
+                        style="animation-name: o_anim_bounce_in; animation-play-state: running; visibility: visible;">
+                        <div class="card bg-white h-100 shadow" style="border-width: 0px !important; box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 16px 0px !important;">
+                            <img id="image1" class="card-img-top shadow" 
+                                style="width: 100% !important; padding: 50px !important;"/>
+                            <div class="card-body">
+                                <span  style="font-size: 24px; font-weight: bolder;"><font id="title1" style="text-o-color-3"></font></span><br></br>
+                                <a type="button" id="url1" class="s_donation_donate_btn mb-2 btn btn-secondary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pb0 pt176 o_animate o_anim_bounce_in o_visible o_animated"
+                        style="animation-name: o_anim_bounce_in; animation-play-state: running; visibility: visible;">
+                        <div class="card bg-white h-100 shadow" style="border-width: 0px !important; box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 16px 0px !important;">
+                            <img id="image2" class="card-img-top shadow" 
+                                style="width: 100% !important; padding: 50px !important;"/>
+                            <div class="card-body">
+                                <span  style="font-size: 24px; font-weight: bolder;"><font id="title2" style="text-o-color-3"></font></span><br></br>
+                                <a type="button" id="url2" class="s_donation_donate_btn mb-2 btn btn-secondary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pb0 pt176 o_animate o_anim_bounce_in o_visible o_animated"
+                        style="animation-name: o_anim_bounce_in; animation-play-state: running; visibility: visible;">
+                        <div class="card bg-white h-100 shadow" style="border-width: 0px !important; box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 16px 0px !important;">
+                            <img id="image3" class="card-img-top shadow"
+                                style="width: 100% !important; padding: 50px !important;"/>
+                            <div class="card-body">
+                                <span  style="font-size: 24px; font-weight: bolder;"><font id="title3" style="text-o-color-3"></font></span><br></br>
+                                <a type="button" id="url3" class="s_donation_donate_btn mb-2 btn btn-secondary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </template>
+    <template id="external_snippets" inherit_id="website.snippets" priority="8">
+        <xpath expr="//div[@id='snippet_effect']//t[@t-snippet][last()]" position="after">
+            <t t-snippet="custom_web.3_latest_blogs"/>
+        </xpath>
+    </template>
+</odoo>

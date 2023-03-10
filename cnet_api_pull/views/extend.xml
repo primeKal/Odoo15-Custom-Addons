@@ -1,0 +1,96 @@
+<odoo>
+        <data>
+        <record id="res_config_settings_view_form_sale_incentive" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.cnet.pull</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="90"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="sales_sync" id="sales_sync" string="Sales Cnet Sync" data-key="sales_sync">
+                        <h2>Sales Sync(from Cnet)</h2>
+                        <div class="row mt16 o_settings_container" id="sales_incentive_setting">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <span class="o_form_label">Please input the Sync configuration</span>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Cnet Url </span>
+                                        <field name="cnet_url" class="text-center oe_inline" />
+                                    </div>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Use Specifc Time </span>
+                                        <field name="specific" class="text-center oe_inline" />
+                                    </div>
+                                    <div class="text-muted content-group mt16" attrs="{&quot;invisible&quot;: [[&quot;specific&quot;,&quot;=&quot;,False]]}">
+                                        <span>Start </span>
+                                        <field name="start_date" class="text-center oe_inline" />
+                                    </div>
+                                    <div class="text-muted content-group mt16" attrs="{&quot;invisible&quot;: [[&quot;specific&quot;,&quot;=&quot;,False]]}">
+                                        <span>End </span>
+                                        <field name="end_date" class="text-center oe_inline" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="cnet_pull_config_settings_action" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'cnet_api_pull', 'bin_size': False}</field>
+        </record>
+
+        <menuitem id="cnet_api_config_settings_menu" name="Sales Sync Settings"
+            parent="sale.menu_sale_config"
+            sequence="0"
+            action="cnet_pull_config_settings_action"
+            groups="base.group_system"/>
+    </data>
+
+
+    <record id="ir_cron_scheduler_cnet_action" model="ir.cron">
+        <field name="name">Cnet Api Sync Action</field>
+        <field name="interval_number">2</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="model_id" ref="model_sale_order"/>
+        <field name="code">model.fetch_sales()</field>
+        <field name="state">code</field>
+    </record>
+
+    <record id="ir_cron_cnet_confirm_sales" model="ir.cron">
+        <field name="name">Cnet Sales Confirm Action</field>
+        <field name="interval_number">2</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="model_id" ref="model_sale_order"/>
+        <field name="code">model.confirm_sale_orders()</field>
+        <field name="state">code</field>
+    </record>
+    <record id="sale_form_inhirit_cnet" model="ir.ui.view">
+        <field name="name">Cnet Order Form</field>
+        <field name="model">sale.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="cashier"   string="Cashier" />
+                <field name="is_credit"   string="Sale Type" />
+                <field name="payment_method" string="payment Method"/>
+            </xpath>
+        </field>
+    </record>
+
+
+
+
+</odoo>
