@@ -1,0 +1,24 @@
+<odoo>
+    <record id="purchase_requisiton_inherited" model="ir.ui.view">
+        <field name="name">Purchase requisition Form</field>
+        <field name="model">purchase.requisition</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="purchase_requisition.view_purchase_requisition_form"/>
+        <field name="arch" type="xml">
+               <xpath expr="//header" position="inside">
+                    <button class="oe_stat_button btn-secondary"
+                            type="object" name="analyze"
+                            attrs="{'invisible': [('state', 'in', ('draft', 'done',))]}"
+                            string="Analyze"/>
+                    <button class="oe_stat_button btn-secondary"
+                            type="object" name="create_selected"
+                           
+                            attrs="{'invisible': [('state', 'not in', ('open'))]}"
+                            string="Create Selected"/>
+                    <button class="oe_stat_button btn-secondary"
+                            type="object" name="send"
+                            string="Send Mail"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

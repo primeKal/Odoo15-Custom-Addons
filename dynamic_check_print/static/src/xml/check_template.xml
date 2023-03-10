@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<templates xml:space="preserve">
+    <t t-name="dynamic_check_print.Check" id="dynamic_check_print.Check">
+        <h5 style="text-align:center;">Check</h5>
+        <p>hii kalu we are getting there pieace by</p>
+    </t>
+</templates>
+</odoo> 

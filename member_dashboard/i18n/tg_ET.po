@@ -1,0 +1,2349 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* member_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e-20220609\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-23 12:51+0000\n"
+"PO-Revision-Date: 2023-01-23 12:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+msgid "&amp;nbsp;"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+msgid "+251-911223344"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid ""
+",  who is your mentee match? Get in touch using the details listed "
+"below.<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid ""
+", is your Mentor, please communicate with the details listed below.<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid ",<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid ",Student"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "0-4"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "10-14"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "15+"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "4-9"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "<b id=\"logo_header\">Memebership Signup</b>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.events_list
+msgid "<i class=\"fa fa-ban mr-2\"/>Unpublished"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.events_list
+msgid "<i class=\"fa fa-check mr-2\"/>Registered"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "<i class=\"fa fa-pencil fa-1g float-sm-none float-md-left\" title=\"Edit\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+msgid "<i class=\"far fa-star fa-lg\"/> <span class=\"mx-2\">|</span> Created by"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+msgid ""
+"<i class=\"fas fa-ellipsis-h ms-4 me-2\"/> <span class=\"text-muted small\">program link</span>\n"
+"                                                    <span class=\"ms-3 me-4\">|</span>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+msgid ""
+"<i class=\"fas fa-link ms-4 me-2\"/> <span class=\"text-muted "
+"small\">program link</span>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "<span class=\"anchor\">Select Projects</span>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"<span class=\"menu-title\">Add Complian</span>\n"
+"                                        <i class=\"mdi mdi-format-list-bulleted menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"<span class=\"menu-title\">Dashboard</span>\n"
+"                                        <i class=\"menu-arrow\"/>\n"
+"                                        <i class=\"mdi mdi-crosshairs-gps menu-icon\"/>"
+msgstr "ገዛና"
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Events</span>\n"
+"                                        <i class=\"mdi mdi-format-list-bulleted menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Mentee Complian</span>\n"
+"                                        <i class=\"mdi mdi-contacts menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Mentee Inforamaion</span>\n"
+"                                        <i class=\"mdi mdi-contacts menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Mentor Complian</span>\n"
+"                                        <i class=\"mdi mdi-contacts menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Mentor Inforamaion</span>\n"
+"                                        <i class=\"mdi mdi-contacts menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"<span class=\"menu-title\">My Complian</span>\n"
+"                                        <i class=\"mdi mdi-format-list-bulleted menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"<span class=\"menu-title\">My Profile</span>\n"
+"                                        <i class=\"mdi mdi-format-list-bulleted menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Projects </span>\n"
+"                                        <i class=\"mdi mdi-contacts menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"<span class=\"menu-title\">Report FeedBack</span>\n"
+"                                        <i class=\"mdi mdi-chart-bar menu-icon\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.index
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"<span class=\"menu-title\">Select Mentee</span>\n"
+"                                        <i class=\"mdi mdi-contacts menu-icon\"/>"
+msgstr "ተማሪ ምርጽ"
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "<strong>Account</strong>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "<strong>Education Background</strong>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "<strong>Finish</strong>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "<strong>Personal</strong>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "<strong>SUCCESS !</strong>"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__associate_member
+#: model:ir.model.fields,help:member_dashboard.field_res_users__associate_member
+msgid ""
+"A member with whom you want to associate your membership.It will consider "
+"the membership state of the associated member."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Account Information"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Account Information:"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__account_invoice_line
+msgid "Account Invoice line"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "Addis Abeba"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "Address"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Address:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Address: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+msgid "Admin"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Administration and Finance"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+msgid "Age"
+msgstr ""
+
+#. module: member_dashboard
+#: model:res.groups,name:member_dashboard.member_group_agent
+msgid "Agent"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Agriculture and food technology"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "All Categories"
+msgstr ""
+
+#. module: member_dashboard
+#: model:website.menu,name:member_dashboard.web_menu_form1
+msgid "All Complaints"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "All Countries"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Already have an account?"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_membership_membership_line__member_price
+msgid "Amount for the membership"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.confirm_reset_password
+msgid ""
+"An Verification code has been sent with credentials to reset your password"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "An email has been sent with credentials to reset your password"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.res_prtner_inherited_heder
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_complaint_form
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_mapping_form
+msgid "Approve"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__approved_acc
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__approved_acc
+#: model:ir.model.fields.selection,name:member_dashboard.selection__mentor_mapping__state__approved
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__request_state__approved
+#: model_terms:ir.ui.view,arch_db:member_dashboard.res_prtner_inherited_heder
+msgid "Approved"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_mapping_form
+msgid "Approved By"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__associate_member
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__associate_member
+msgid "Associate Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.confirm_reset_password
+#: model_terms:ir.ui.view,arch_db:member_dashboard.reset_password
+msgid "Back to Login"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Background:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Basic Personal Information"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__membership_cancel
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__membership_cancel
+msgid "Cancel Membership Date"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__date_cancel
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__date_canceled
+msgid "Cancel date"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__member_complaint__state__cancelled
+#: model:ir.model.fields.selection,name:member_dashboard.selection__mentor_mapping__state__canceled
+#: model:ir.model.fields.selection,name:member_dashboard.selection__report_report__state__canceled
+msgid "Cancelled"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__canceled
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__canceled
+msgid "Cancelled Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"Changing VAT number is not allowed once document(s) have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"Changing company name is not allowed once document(s) have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_product_product__membership
+#: model:ir.model.fields,help:member_dashboard.field_product_template__membership
+msgid "Check if the product is eligible for membership."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__report_report__state__approved
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_report_form
+msgid "Checked"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__responsible_person
+msgid "Checked By"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+msgid "Choose"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__circumstances
+msgid "Circumstances"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "City"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "City:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "City: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Clear"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Collage"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__company_id
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__company_id
+msgid "Company"
+msgstr "ድርጅት"
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Company Name"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Complain<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.ui.menu,name:member_dashboard.complaint_form_menu
+msgid "Complaint"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.ui.menu,name:member_dashboard.complaint_category_view
+msgid "Complaint Categories"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__complaint_category
+msgid "Complaint Category"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.actions.act_window,name:member_dashboard.action_for_complain_category
+msgid "Complaint Catgeorization"
+msgstr ""
+
+#. module: member_dashboard
+#: model:res.groups,name:member_dashboard.member_group_complaint_management
+msgid "Complaint Management"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__state
+msgid "Complaint status"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.actions.act_window,name:member_dashboard.complaint_form_action
+msgid "Complaints"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Compliant Type"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__conclusion_report
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__conclusion_report
+msgid "Conclusion Report"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.confirm_reset_password
+#: model_terms:ir.ui.view,arch_db:member_dashboard.reset_password
+msgid "Confirm"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid ""
+"Confirm\n"
+"                                                          <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.confirm_reset_password
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Confirm Password"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Confirm Password: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.not_approved
+msgid ""
+"Congratulations, We have received your application and it is being processed.\n"
+"                   <br/>\n"
+"                    Please wait until admin approves your request to access your dashboard.\n"
+"                    <br/>Thanks,the Haqi team."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid ""
+"Congratulations1 Mr./Mrs <span id=\"shown_signin_name\"/> you have "
+"successfully loggedin."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_res_partner
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_dashboard
+msgid "Contact"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Contact Details"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Contact No"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Contact No."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Contact No.: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__project_contribute
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__project_contribute
+msgid "Contribute Projects"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Could not reset your password"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "Country"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Country..."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Country: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__create_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__create_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__create_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__create_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__create_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__create_date
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__create_date
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__create_date
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__create_date
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__create_date
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__membership_state
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__membership_state
+msgid "Current Membership Status"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__checked_date
+msgid "Date"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__date_approved
+msgid "Date Approved"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__date_of_remedy
+msgid "Date Of Remedy"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_product_product__membership_date_from
+#: model:ir.model.fields,help:member_dashboard.field_product_template__membership_date_from
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__membership_start
+#: model:ir.model.fields,help:member_dashboard.field_res_users__membership_start
+msgid "Date from which membership becomes active."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_membership_membership_line__date
+msgid "Date on which member has joined the membership"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__membership_cancel
+#: model:ir.model.fields,help:member_dashboard.field_res_users__membership_cancel
+msgid "Date on which membership has been cancelled"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_product_product__membership_date_to
+#: model:ir.model.fields,help:member_dashboard.field_product_template__membership_date_to
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__membership_stop
+#: model:ir.model.fields,help:member_dashboard.field_res_users__membership_stop
+msgid "Date until which membership remains active."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "Dear"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Dear,"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__display_name
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__display_name
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__display_name
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__display_name
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__display_name
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__suggestions
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "Do you have any suggestions to improve this activity?"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Don't have an account?"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Donec Facilisis Tortor<br/> Ut Augue Lacinia,<br/>At Vivera"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.actions.act_window,name:member_dashboard.duration_form_action
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__duration
+msgid "Duration"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__duration_of_remedy
+msgid "Duration Of Remedy"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "E-mail"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Edit"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Education"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "Education Background,"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Elementory"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "Email"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Email Id"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Email: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Engineering"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Enter your E-mail address"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Enter your password"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.constraint,message:member_dashboard.constraint_product_template_membership_date_greater
+msgid "Error ! Ending Date cannot be set before Beginning Date."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Excellent"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.res_prtner_inherited_heder
+msgid "Face Book"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.ui.menu,name:member_dashboard.membership_feedback
+msgid "Feedback"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.report_form_tree
+msgid "Feedback From"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "Feedback<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Female"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Fill all form field to go to next step"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Finish:"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__free_member
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__free_member
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__free
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__free
+msgid "Free Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__date_from
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__date_from
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__user_id
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_form_tree
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_complaint_form
+msgid "From"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "Full Name"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Full Name: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Full name"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Gender: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Good"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Government and public policy"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid ""
+"HAQI foundation is working to get the best out of its community and with great gratitude we\n"
+"need you to give us your feedback."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__handler
+msgid "Handler"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Have you ever been a mentee?: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Have you ever been a mentor?: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Hello"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.module.category,description:member_dashboard.module_category_member_handlers
+msgid "Helps with handling issues related to memebers"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "HighSchool"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.not_approved
+msgid "Hooray,Application Received"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__how_did_you_find
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "How did you find out about the Segar Scholarship project?"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__how_do_you_evaluate
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "How do you evaluate the time you spent on this project?"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "How many years have you been in your profession?: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__how_often_do_you
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "How often do you use or access the scholarship portal?"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__id
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__id
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__id
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__id
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__id
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__id
+msgid "ID"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "IT and technology"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "If so, please describe your experience.:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "If so, please describe your experience.: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "If you disagree with the following, please comply:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "In which of the following business areas do you have expertise?: *"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Incorrect phone number"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__instagram
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__instagram
+msgid "Instagram"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Invalid password  "
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Invalid phone number"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__account_invoice_id
+msgid "Invoice"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__invoiced
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__invoiced
+msgid "Invoiced Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__membership_state
+#: model:ir.model.fields,help:member_dashboard.field_res_users__membership_state
+msgid ""
+"It indicates the membership state.\n"
+"-Non Member: A partner who has not applied for any membership.\n"
+"-Cancelled Member: A member who has cancelled his membership.\n"
+"-Old Member: A member whose membership date has expired.\n"
+"-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"-Invoiced Member: A member whose invoice has been created.\n"
+"-Paying member: A member who has paid the membership fee."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_membership_membership_line__state
+msgid ""
+"It indicates the membership status.\n"
+"-Non Member: A member who has not applied for any membership.\n"
+"-Cancelled Member: A member who has cancelled his membership.\n"
+"-Old Member: A member whose membership date has expired.\n"
+"-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"-Invoiced Member: A member whose invoice has been created.\n"
+"-Paid Member: A member who has paid the membership amount."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "John Walker"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__date
+msgid "Join Date"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category____last_update
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint____last_update
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line____last_update
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration____last_update
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping____last_update
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Last Stage Update"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__write_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__write_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__write_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__write_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__write_uid
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__write_date
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__write_date
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__write_date
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__write_date
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__write_date
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__linkedin
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__linkedin
+msgid "Linkedin"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.ui.menu,name:member_dashboard.complaint_list_view
+msgid "List of Complaints"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Log in to continue"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Male"
+msgstr ""
+
+#. module: member_dashboard
+#: model:res.groups,name:member_dashboard.member_group_manager
+msgid "Manager"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.actions.act_window,name:member_dashboard.mapping_form_action
+msgid "Mapping"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_mapping_form
+msgid "Mapping Details"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__mentee_state__matched
+msgid "Matched"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__member
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__member
+#: model:res.groups,name:member_dashboard.member_group_user
+msgid "Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.module.category,name:member_dashboard.module_category_member_handlers
+msgid "Member Handlers"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.actions.act_window,name:member_dashboard.feedback_form_action
+msgid "Memberahip FeedBack"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__membership_id
+#: model:ir.model.fields,field_description:member_dashboard.field_product_product__membership
+#: model:ir.model.fields,field_description:member_dashboard.field_product_template__membership
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__member_lines
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__member_lines
+msgid "Membership"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__membership_amount
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__membership_amount
+msgid "Membership Amount"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_product_product__membership_date_to
+#: model:ir.model.fields,field_description:member_dashboard.field_product_template__membership_date_to
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__membership_stop
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__membership_stop
+msgid "Membership End Date"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__member_price
+msgid "Membership Fee"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_membership_membership_line
+msgid "Membership Line"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_product_product__membership_date_from
+#: model:ir.model.fields,field_description:member_dashboard.field_product_template__membership_date_from
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__membership_start
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__membership_start
+msgid "Membership Start Date"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__state
+msgid "Membership Status"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__type
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__type
+msgid "Membership Type"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.actions.server,name:member_dashboard.ir_cron_update_membership_ir_actions_server
+#: model:ir.cron,cron_name:member_dashboard.ir_cron_update_membership
+#: model:ir.cron,name:member_dashboard.ir_cron_update_membership
+msgid "Membership: update memberships"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__mentee_id
+msgid "Mentee"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Mentee Sign Up"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__mentee_state
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__mentee_state
+msgid "Mentee Status"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__mentor_id
+msgid "Mentor"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.ui.menu,name:member_dashboard.mapping_form_menu
+msgid "Mentor Matching"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Mentor Sign Up"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.ui.menu,name:member_dashboard.duration_form_menu
+msgid "Mentore Duration"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_mapping_form
+msgid "Mentoring Details"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Message"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "Mobile"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_account_link
+msgid "My Dashboard"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__name
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+#, python-format
+msgid "Name"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid ""
+"Never again: What I don’t want to see again in my life? (You can add more "
+"than one)"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/membership.py:0
+#: code:addons/member_dashboard/models/report.py:0
+#: code:addons/member_dashboard/models/report.py:0
+#: code:addons/member_dashboard/models/report.py:0
+#: code:addons/member_dashboard/models/report.py:0
+#: model:ir.model.fields.selection,name:member_dashboard.selection__member_complaint__state__new
+#: model:ir.model.fields.selection,name:member_dashboard.selection__mentor_mapping__state__new
+#: model:ir.model.fields.selection,name:member_dashboard.selection__report_report__state__new
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__mentee_state__free
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__request_state__new
+#, python-format
+msgid "New"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.confirm_reset_password
+msgid "New Password"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Newest"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Next"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "Next Events"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "Next Week"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "Next month"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "No"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.events_list
+msgid "No events found."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__none
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__none
+msgid "Non Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__old
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__old
+msgid "Old Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid ""
+"On mentoring progress, you are not compertable on mentee matching submit "
+"your complian"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid ""
+"On mentoring progress, you are not compertable on mentor matching submit "
+"your complian"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid ""
+"Only employees can access this database. Please contact the administrator."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Others"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Our system will send you an email for further instructions"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__paid
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__paid
+msgid "Paid Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__partner
+msgid "Partner"
+msgstr "ተባባሪ"
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/partner.py:0
+#, python-format
+msgid "Partner doesn't have an address to make the invoice."
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/partner.py:0
+#, python-format
+msgid "Partner is a free Member."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Password"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Password Not Match"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Password: *"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "Past Events"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__name
+msgid "Period"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__perpertrators
+msgid "Perpertrators"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Personal Information:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_profile
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Phone"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+msgid "Phone Number"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Please describe your education and business background.: *"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#: code:addons/member_dashboard/models/complaint_form.py:0
+#, python-format
+msgid ""
+"Please fill in the conclusion report or set the date of remedy to Today's "
+"date."
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/membership.py:0
+#, python-format
+msgid "Please fill in the conclusion[Approval] report"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/membership.py:0
+#, python-format
+msgid "Please fill in the conclusion[Rejection] report."
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/report.py:0
+#: code:addons/member_dashboard/models/report.py:0
+#: code:addons/member_dashboard/models/report.py:0
+#, python-format
+msgid "Please fill in the responsible person for feedback view"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__rate_your_level
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "Please rate your level of satisfaction with the project"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Preparatory"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Previous"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Private Business"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_product_template
+msgid "Product Template"
+msgstr "የእቃው ማሳያ"
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Profile:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_layout
+msgid "Projects"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__seq
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__seq
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__seq
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__seq
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__seq
+msgid "Reference"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__member_complaint__state__rejected
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__mentee_state__rejected
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__request_state__rejected
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_complaint_form
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_mapping_form
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_report_form
+msgid "Rejected"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.res_prtner_inherited_heder
+msgid "Remove Access"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_complaint_form
+msgid "Report Comment"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__date_from
+msgid "Request"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__member_complaint__state__resolved
+msgid "Resolved"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_complaint_category__responsible_person
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__handler
+msgid "Responsible Person"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "School performance: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+msgid "Select Mentee:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Select Mentee: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__free_member
+#: model:ir.model.fields,help:member_dashboard.field_res_users__free_member
+msgid "Select if you want to give free membership."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__select_mentee
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__select_mentee
+msgid "Selected Mentee"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Sign In"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Sign in"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__social_media
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__social_media
+msgid "Social Media Link(Face Book"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Stage"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "State"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "State / Province"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "State: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_mapping__state
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__state
+msgid "Status"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Step 1 - 4"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Step 2 - 4"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Step 3 - 4"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Step 4 - 4"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Street"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Student"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Student]  ["
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+msgid "Student]["
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Subcity"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Subcity..."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__subject
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Subject"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "Submit"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "Submit Request"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Success"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_layout
+msgid "Tasks"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "Thank you for your time."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+msgid "Thank you for your time. We have received your feedback."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_membership_membership_line__account_invoice_id
+msgid "The move of this entry line."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,help:member_dashboard.field_res_partner__membership_amount
+#: model:ir.model.fields,help:member_dashboard.field_res_users__membership_amount
+msgid "The price negotiated by the partner"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_complaint_category
+msgid "These will hold a list of categories for complaints"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_report_report
+msgid "These will hold a list of membership report"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "This Week"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "This month"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_member_complaint
+msgid "This will contain the form for member complaint"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_membership_membership_line__date_to
+#: model:ir.model.fields,field_description:member_dashboard.field_mentor_duration__date_to
+msgid "To"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#: code:addons/member_dashboard/controllers/portal.py:0
+#, python-format
+msgid "Today"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__twitter
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__twitter
+msgid "Twitter"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Upcoming Events"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.events_list
+msgid "Use the top button '<b>+ New</b>' to create an event."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__user_id
+msgid "User"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "UserName"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Username: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "VAT Number"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.confirm_reset_password
+msgid "Verification code"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Very Good"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "Very Great"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_member_complaint__victim_id
+msgid "Victim"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__report_report__state__waiting
+msgid "Waiting "
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__member_complaint__state__waiting
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__request_state__waiting
+msgid "Waiting For Approval"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__mentee_state__waiting
+msgid "Waiting For Matching"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields.selection,name:member_dashboard.selection__membership_membership_line__state__waiting
+#: model:ir.model.fields.selection,name:member_dashboard.selection__mentor_mapping__state__waiting
+#: model:ir.model.fields.selection,name:member_dashboard.selection__res_partner__membership_state__waiting
+msgid "Waiting Member"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_complaint_form
+msgid "Waiting to Approve"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_report_form
+msgid "Waiting to Checked"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "Welcome Back"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "What do I want to see in My country? (You can add more than one)"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_report_report__your_participation
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "What was your participation?"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Why are you interested in becoming a mentor?: *"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/controllers/main.py:0
+#, python-format
+msgid "Wrong login/password"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "Yes"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor
+msgid "You Have Successfully Signed Up"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "You are uninterested in mentoring complaints:"
+msgstr ""
+
+#. module: member_dashboard
+#: code:addons/member_dashboard/models/partner.py:0
+#, python-format
+msgid "You cannot create recursive associated members."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "You don't have a mentee, please select one..."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "You don't have a mentor, we will get you soon, kindly check"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid ""
+"You have not chosen a mentee, please choose one and we will get you "
+"compliant shortly."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.membership_register
+msgid "You must login to continue"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "Your Mentor Match is Making Progress..."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Your Mentor Matching Through on Progress, ..."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "Your Mentor Matching Through on Progress..."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+msgid "Your Name"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.reset_password
+msgid "Your Phone:"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+msgid "Your complaint has been received,  we will contact you shortly."
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Your current Mentee<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+msgid "Your current Mentor<br/>"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "Zip / Postal Code"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.complaint_submitted
+#: model_terms:ir.ui.view,arch_db:member_dashboard.feedback_submitted
+msgid "back"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_complian
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "breadcrumb"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "level of education: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee_select
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentor_info
+msgid "link to compliance page"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_mentor_duration
+msgid "mentor.duration"
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model,name:member_dashboard.model_mentor_mapping
+msgid "mentor.mapping"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.portal_my_details
+msgid "select..."
+msgstr ""
+
+#. module: member_dashboard
+#: model:ir.model.fields,field_description:member_dashboard.field_res_partner__request_state
+#: model:ir.model.fields,field_description:member_dashboard.field_res_users__request_state
+msgid "status"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.view_complaint_form
+msgid "victim"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "what is your hobby and your dream: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.mentee
+msgid "who you are: *"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.contact_us
+#: model_terms:ir.ui.view,arch_db:member_dashboard.shear_ideas
+msgid "yours@gmail.com"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵As a Mentee"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵As a constant donor"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵As a mentor"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵As a one-time donor"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Dissatisfied"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Email"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Internet/search engine"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Moderately useful"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵More than once a week"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Neutral"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵None"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Not useful at all"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Not very useful"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Once a month"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Once a week"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Others"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Our website"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Promotional events"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Quite useful"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Satisfied"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Social media"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵TV and radio ad"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Very satisfied"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Very useful"
+msgstr ""
+
+#. module: member_dashboard
+#: model_terms:ir.ui.view,arch_db:member_dashboard.my_report
+msgid "🖵Word of mouth"
+msgstr ""

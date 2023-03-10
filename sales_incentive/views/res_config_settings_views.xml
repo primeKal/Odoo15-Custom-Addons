@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form_sale_incentive" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.sales.incentive</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="90"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="sales_incentive" id="sales_incentive" string="sales_incentive" data-key="sales_incentive">
+                        <h2>Sales Incentive</h2>
+                        <div class="row mt16 o_settings_container" id="sales_incentive_setting">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <span class="o_form_label">Set amount to be paid based on percentage</span>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Above 100% </span>
+                                        <field name="s_100" class="text-center oe_inline" />
+                                        <span> will be paid</span>
+                                    </div>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Above 90% </span>
+                                        <field name="s_90" class="text-center oe_inline" />
+                                        <span> will be paid</span>
+                                    </div>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Above 75% </span>
+                                        <field name="s_75" class="text-center oe_inline" />
+                                        <span> will be paid</span>
+                                    </div>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Above 50% </span>
+                                        <field name="s_50" class="text-center oe_inline" />
+                                        <span> will be paid</span>
+                                    </div>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Above 25% </span>
+                                        <field name="s_25" class="text-center oe_inline" />
+                                        <span> will be paid</span>
+                                    </div>
+                                    <div class="text-muted content-group mt16">
+                                        <span>Above 10% </span>
+                                        <field name="s_10" class="text-center oe_inline" />
+                                        <span> will be paid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="sales_incentive_config_settings_action" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'sales_incentive', 'bin_size': False}</field>
+        </record>
+
+        <menuitem id="sales_incentive_config_settings_menu" name="Incentive Settings"
+            parent="sale.menu_sale_config"
+            sequence="0"
+            action="sales_incentive_config_settings_action"
+            groups="base.group_system"/>
+    </data>
+</odoo>

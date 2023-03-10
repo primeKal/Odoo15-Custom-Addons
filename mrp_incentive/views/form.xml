@@ -1,0 +1,40 @@
+<odoo>
+    <record id="mrp_incentive_inherited" model="ir.ui.view">
+        <field name="name">Mrp Work Center Form</field>
+        <field name="model">mrp.workcenter</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="mrp.mrp_workcenter_view"/>
+        <field name="arch" type="xml">
+               <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
+                   <!-- <page name="Employees(Incentive)" string="Employees(Incentive)">
+                       <field name="employ_ids"/>
+                   </page> -->
+                   <page name="Employees" string="Employees(Incentive)">
+                    <field name="employee_types"/>
+                   </page>
+            </xpath>
+            <xpath expr="//field[@name='alternative_workcenter_ids']" position="after">
+                <field name="target"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="contract_form_inherited" model="ir.ui.view">
+        <field name="name">Updated COntract for(mrp Incentive)</field>
+        <field name="model">hr.contract</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="hr_contract.hr_contract_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[2]" position="inside">
+                <group>
+                    <group name="incentive">
+                        <label for="mrp_incentive"/>
+                        <div class="o_row" name="incentive">
+                            <field name="mrp_incentive" nolabel="1"/>
+                            <span>/ month</span>
+                        </div>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

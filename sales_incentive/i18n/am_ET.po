@@ -1,0 +1,299 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sales_incentive
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e-20220609\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-23 11:42+0000\n"
+"PO-Revision-Date: 2023-01-23 11:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid ""
+"<span class=\"o_form_label\">Set amount to be paid based on "
+"percentage</span>"
+msgstr "ሚከፈል ዋጋ በስራ በሃት"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sales_incentive_formmm
+msgid "<span> $</span>"
+msgstr "ብር"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sales_incentive_formmm
+msgid "<span> %</span>"
+msgstr "ፕርሰንት"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span> will be paid</span>"
+msgstr "ሚከፈል"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.contract_form_inherited
+msgid "<span>/ month</span>"
+msgstr "በ ወር"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span>Above 10% </span>"
+msgstr "ከ 10 በላይ"
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span>Above 100% </span>"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span>Above 25% </span>"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span>Above 50% </span>"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span>Above 75% </span>"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "<span>Above 90% </span>"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_res_config_settings__s_10
+msgid "Above 10"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_res_config_settings__s_100
+msgid "Above 100%"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_res_config_settings__s_25
+msgid "Above 25%"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_res_config_settings__s_50
+msgid "Above 50%"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_res_config_settings__s_75
+msgid "Above 75%"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_res_config_settings__s_90
+msgid "Above 90%"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields.selection,name:sales_incentive.selection__sale_incentive__state__approved
+msgid "Approved"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model,name:sales_incentive.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sales_incentive_formmm
+msgid "Create Sales Incentive"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.actions.act_window,help:sales_incentive.sales_incentive_action
+msgid "Create a Sales Incentive"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__create_uid
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__create_date
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__display_name
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields.selection,name:sales_incentive.selection__sale_incentive__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model,name:sales_incentive.model_hr_contract
+msgid "Employee Contract"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_crm_team__employee_pay_ids
+msgid "Employee Pay"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__end_date
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__end_date
+msgid "End Time"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__id
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__id
+msgid "ID"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sales_incentive_formmm
+msgid "Incentive"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.ui.menu,name:sales_incentive.sales_incentive_config_settings_menu
+msgid "Incentive Settings"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model,name:sales_incentive.model_sale_incentive
+#: model:ir.model,name:sales_incentive.model_sale_month
+msgid "Is used to store the sales incentive of the previous month"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive____last_update
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__write_uid
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__write_date
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sale_form_non_standard_inhirit
+msgid "Memebers(Employees)"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__name
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__name
+msgid "Name"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__paid_amount
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__paid_amount
+msgid "Paid Amount"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model,name:sales_incentive.model_hr_payslip
+msgid "Pay Slip"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__percent
+msgid "Percentage Achived"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sales_incentive_formmm
+msgid "Previous Sales(In range)"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_crm_team__previous_ids
+#: model_terms:ir.ui.view,arch_db:sales_incentive.sale_form_non_standard_inhirit
+msgid "Previous Targets"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__sales_count
+msgid "Sales Count"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.actions.act_window,name:sales_incentive.sales_incentive_action
+#: model:ir.model.fields,field_description:sales_incentive.field_hr_contract__sales_incentive
+#: model:ir.ui.menu,name:sales_incentive.non_standard_foams
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "Sales Incentive"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model,name:sales_incentive.model_crm_team
+msgid "Sales Team"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__branch
+msgid "Sales/Branch Team"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.actions.act_window,name:sales_incentive.sales_incentive_config_settings_action
+msgid "Settings"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__start_date
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__start_date
+msgid "Start Time"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__state
+msgid "Status"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__target
+msgid "Tareget-/Month"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_month__goal
+msgid "Target"
+msgstr ""
+
+#. module: sales_incentive
+#: model:ir.model.fields,field_description:sales_incentive.field_sale_incentive__sales_amount
+msgid "Total Sales"
+msgstr ""
+
+#. module: sales_incentive
+#: model_terms:ir.ui.view,arch_db:sales_incentive.res_config_settings_view_form_sale_incentive
+msgid "sales_incentive"
+msgstr ""

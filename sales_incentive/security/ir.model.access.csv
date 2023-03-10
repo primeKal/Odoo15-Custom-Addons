@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_incentive,access.sale.month,model_sale_month,base.group_user,1,1,1,1
+access_sale_incentive_model,access.sale.incentive,model_sale_incentive,base.group_user,1,1,1,1

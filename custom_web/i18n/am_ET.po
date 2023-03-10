@@ -1,0 +1,1572 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* custom_web
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e-20220609\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-23 11:58+0000\n"
+"PO-Revision-Date: 2023-01-23 11:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "$100"
+msgstr "100 ብር"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "$25"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "$50"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "0-4"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "10-14"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "15+"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "17 last day . 94Apply"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "4-9"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Board Name</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>College/University name</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>E-mail Address</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Experience 1</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Experience 2</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Experience 3</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>First Name</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Last Name</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Phone number</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>Position</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "<span>School Name</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "<strong>Account</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "<strong>Education Background</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "<strong>Finish</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "<strong>Personal Information</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "<strong>Personal</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "<strong>SUCCESS !</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "<strong>Submit</strong>"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__associate_member
+#: model:ir.model.fields,help:custom_web.field_res_users__associate_member
+msgid ""
+"A member with whom you want to associate your membership.It will consider "
+"the membership state of the associated member."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Account Information:"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__account_invoice_line
+msgid "Account Invoice line"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Add your profile piccture and let companies find youy fast."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Address"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Address:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Address: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Admin"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Administration and Finance"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Age"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Agriculture and food technology"
+msgstr "ገበሬ"
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_membership_membership_line__member_price
+msgid "Amount for the membership"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.confirm_reset_password
+msgid ""
+"An Verification code has been sent with credentials to reset your password"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "An email has been sent with credentials to reset your password"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Another Campaign"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__associate_member
+#: model:ir.model.fields,field_description:custom_web.field_res_users__associate_member
+msgid "Associate Member"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "B-COM"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "B-SC"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "B-TECH"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "BA"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "BCA"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Back"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.confirm_reset_password
+#: model_terms:ir.ui.view,arch_db:custom_web.reset_password
+msgid "Back to Login"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Background:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Bejing"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Berlin"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__business_areas
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__business_areas
+#: model:ir.model.fields,field_description:custom_web.field_res_users__business_areas
+msgid "Business Areas"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Can you talk about your past work experience?"
+msgstr "ከዚ በፊት የነበረህ ለምድ"
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__membership_cancel
+#: model:ir.model.fields,field_description:custom_web.field_res_users__membership_cancel
+msgid "Cancel Membership Date"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__date_cancel
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__date_cancel
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__date_cancel
+#: model:ir.model.fields,field_description:custom_web.field_res_users__date_cancel
+msgid "Cancel date"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__canceled
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__canceled
+msgid "Cancelled Member"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "China"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "City:"
+msgstr "ከተማ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "City: *"
+msgstr "ከተማ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Collage"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__company_id
+msgid "Company"
+msgstr "ድርጅት"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.confirm_reset_password
+#: model_terms:ir.ui.view,arch_db:custom_web.reset_password
+msgid "Confirm"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.confirm_reset_password
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Confirm Password"
+msgstr "ሚስተር ኩተር ደጋሚ አሰገባ "
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Confirm Password: *"
+msgstr "ሚስተር ኩተር ደጋሚ አሰገባ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Congratulations!"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model,name:custom_web.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Contact No."
+msgstr "ሰልክ ኩተር"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Contact No.: *"
+msgstr " ሰለክ ኩተር"
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#: code:addons/custom_web/controllers/main.py:0
+#: code:addons/custom_web/controllers/main.py:0
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "Could not reset your password"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Country: *"
+msgstr "አገር"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Countrys: *"
+msgstr "አገር"
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__create_uid
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__create_date
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__membership_state
+#: model:ir.model.fields,field_description:custom_web.field_res_users__membership_state
+msgid "Current Membership Status"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__membership_start
+#: model:ir.model.fields,help:custom_web.field_res_users__membership_start
+msgid "Date from which membership becomes active."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_membership_membership_line__date
+msgid "Date on which member has joined the membership"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_crm_lead__date_join
+#: model:ir.model.fields,help:custom_web.field_res_partner__date_join
+#: model:ir.model.fields,help:custom_web.field_res_users__date_join
+msgid "Date on which member has joined the mentroship"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__membership_cancel
+#: model:ir.model.fields,help:custom_web.field_res_users__membership_cancel
+msgid "Date on which membership has been cancelled"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__membership_stop
+#: model:ir.model.fields,help:custom_web.field_res_users__membership_stop
+msgid "Date until which membership remains active."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__mentor_description
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__mentor_description
+#: model:ir.model.fields,field_description:custom_web.field_res_users__mentor_description
+msgid "Description"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Diabetes Research"
+msgstr "የሰኩዋር በሽታ"
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__display_name
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Donate Now"
+msgstr "ለገሱ ሁኑን"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Edit"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Education"
+msgstr "ተመሕረት"
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__education_background
+#: model:ir.model.fields,field_description:custom_web.field_res_users__education_background
+msgid "Education Background"
+msgstr "ናይ ተምህርት መረጃ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Education Level."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Education Level: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Elementory"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Email"
+msgstr "ኢሜል"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "ኢሜል"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Email: *"
+msgstr "ኢሜል"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Engineering"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Enter your personal information to get closer to companies."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Enter your personal information to get closer to copanies."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Excellent"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__experience
+#: model:ir.model.fields,field_description:custom_web.field_res_users__experience
+msgid "Experience"
+msgstr "ልምድ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Facebook"
+msgstr "ፌስቡክ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Female"
+msgstr "አነአስቲ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Fill all form field to go to next step"
+msgstr "ሙላ እና እለፍ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Finish:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "First Name"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "First Name: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "France"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__free_member
+#: model:ir.model.fields,field_description:custom_web.field_res_users__free_member
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__free
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__free
+msgid "Free Member"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__date_from
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__date_from
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__date_from
+#: model:ir.model.fields,field_description:custom_web.field_res_users__date_from
+msgid "From"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Full Name"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Full Name: *"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__gender
+msgid "Gender"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Gender: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Germany"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid ""
+"Get to know better by adding your diploma,certificate and education life."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Giving Options"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Good"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Government and public policy"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__Have_been_mentee
+#: model:ir.model.fields,field_description:custom_web.field_res_users__Have_been_mentee
+msgid "Have you ever been a mentee"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Have you ever been a mentee?: *"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__Have_been_mentor
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__Have_been_mentor
+#: model:ir.model.fields,field_description:custom_web.field_res_users__Have_been_mentor
+msgid "Have you ever been a mentor"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Have you ever been a mentor?: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid ""
+"Help companies get to know you better by telling then about your past "
+"experiences."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "HighSchool"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Hiring"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__hobby
+#: model:ir.model.fields,field_description:custom_web.field_res_users__hobby
+msgid "Hobby"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "How many years have you been in your profession?: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "I would like to give:"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__id
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__id
+msgid "ID"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "IT and technology"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "If so, please describe your experience.:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "In which of the following business areas do you have expertise?: *"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "Incorrect phone number"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "India"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Inform companies about your education life."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Instagram"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__Why_are_you_interested
+msgid "Interest"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "Invalid password  "
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "Invalid phone number"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__account_invoice_id
+msgid "Invoice"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__invoiced
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__invoiced
+msgid "Invoiced Member"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Islamabad"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__membership_state
+#: model:ir.model.fields,help:custom_web.field_res_users__membership_state
+msgid ""
+"It indicates the membership state.\n"
+"-Non Member: A partner who has not applied for any membership.\n"
+"-Cancelled Member: A member who has cancelled his membership.\n"
+"-Old Member: A member whose membership date has expired.\n"
+"-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"-Invoiced Member: A member whose invoice has been created.\n"
+"-Paying member: A member who has paid the membership fee."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_membership_membership_line__state
+msgid ""
+"It indicates the membership status.\n"
+"-Non Member: A member who has not applied for any membership.\n"
+"-Cancelled Member: A member who has cancelled his membership.\n"
+"-Old Member: A member whose membership date has expired.\n"
+"-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"-Invoiced Member: A member whose invoice has been created.\n"
+"-Paid Member: A member who has paid the membership amount."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Izmar,Turkey"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Japan"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__date_join
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__date
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__date_join
+#: model:ir.model.fields,field_description:custom_web.field_res_users__date_join
+msgid "Join Date"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line____last_update
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Last Name"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Last Name: *"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__write_uid
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__write_date
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model,name:custom_web.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "LinkedIn"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "London"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's standard dummy text ever since the "
+"1500s."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "M-COM"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "M-TECH"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "MBA"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "MCA"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Male"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__mentee_state__matched
+msgid "Matched"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__membership_id
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__member_lines
+#: model:ir.model.fields,field_description:custom_web.field_res_users__member_lines
+msgid "Membership"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__membership_amount
+#: model:ir.model.fields,field_description:custom_web.field_res_users__membership_amount
+msgid "Membership Amount"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__membership_stop
+#: model:ir.model.fields,field_description:custom_web.field_res_users__membership_stop
+msgid "Membership End Date"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__member_price
+msgid "Membership Fee"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model,name:custom_web.model_membership_membership_line
+msgid "Membership Line"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__membership_start
+#: model:ir.model.fields,field_description:custom_web.field_res_users__membership_start
+msgid "Membership Start Date"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__state
+msgid "Membership Status"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__member_type
+#: model:ir.model.fields,field_description:custom_web.field_res_users__member_type
+msgid "Membership Type"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model,name:custom_web.model_mentroship_program
+msgid "Menetoship Program"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Mentee Sign Up"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__mentee_state
+#: model:ir.model.fields,field_description:custom_web.field_res_users__mentee_state
+msgid "Mentee Status"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Mentor Registration"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Mentor Sign Up"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Monthly Giving"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Moscow"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__mentee_state__free
+msgid "New"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "New Delhi"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.confirm_reset_password
+msgid "New Password"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Next Step"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "No"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "No phone provided."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__none
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__none
+msgid "Non Member"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__old
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__old
+msgid "Old Member"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "One Time Giving"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid ""
+"Only employees can access this database. Please contact the administrator."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Other"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Other Ways to Donate"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Others"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid ""
+"Our system has sent you an email, please check it for further instructions"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Our system will send you an email with further instructions"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__paid
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__paid
+msgid "Paid Member"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Pakistan"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Paris"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__partner
+#: model:ir.model.fields,field_description:custom_web.field_mentroship_program__partner
+msgid "Partner"
+msgstr "ተባባሪ"
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Password"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "Password Not Match"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Password: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Personal Information"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Personal Information:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Peter Hawkins"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.my_profile
+msgid "Phone"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__image
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__image
+#: model:ir.model.fields,field_description:custom_web.field_res_users__image
+msgid "Photo"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Please describe your education and business background.:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Position"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Position: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Preparatory"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Private Business"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Profile:"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__mentee_state__rejected
+msgid "Rejected"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__resume
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__resume
+#: model:ir.model.fields,field_description:custom_web.field_res_users__resume
+msgid "Resume"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Russia"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__school_performace
+#: model:ir.model.fields,field_description:custom_web.field_res_users__school_performace
+msgid "School Performace"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "School performance:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Select City"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Select Country"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Select Course"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Select Mentee: *"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__free_member
+#: model:ir.model.fields,help:custom_web.field_res_users__free_member
+msgid "Select if you want to give free membership."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Send kids to camp"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Specialization"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Specialization: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "State: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Step 1 - 4"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Step 2 - 4"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Step 3 - 4"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Step 4 - 4"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Step <span class=\"step-number\">1</span>"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Student"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Student,   ["
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Submit"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Submit:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid ""
+"Thanks Mr./Mrs. <span class=\"shown_name\"/> your information have been "
+"submitted successfully for the future reference we will contact you soon."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_membership_membership_line__account_invoice_id
+msgid "The move of this entry line."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,help:custom_web.field_res_partner__membership_amount
+#: model:ir.model.fields,help:custom_web.field_res_users__membership_amount
+msgid "The price negotiated by the partner"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "This gift is in honour or in memory"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__date_to
+#: model:ir.model.fields,field_description:custom_web.field_membership_membership_line__date_to
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__date_to
+#: model:ir.model.fields,field_description:custom_web.field_res_users__date_to
+msgid "To"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Tokyo"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Twitter"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "UK"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "USA"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Upload your profile picture and share yourself."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "User Photo"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "UserName"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "Username: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.confirm_reset_password
+msgid "Verification code"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Very Good"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "Very Great"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__mentee_state__waiting
+msgid "Waiting For Matching"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields.selection,name:custom_web.selection__membership_membership_line__state__waiting
+#: model:ir.model.fields.selection,name:custom_web.selection__res_partner__membership_state__waiting
+msgid "Waiting Member"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Washington D.C."
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Ways to Donate"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Where it's needed most"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Where would you like to give?"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__whoyouare
+#: model:ir.model.fields,field_description:custom_web.field_res_users__whoyouare
+msgid "Who Are You"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__Why_are_you_interested
+#: model:ir.model.fields,field_description:custom_web.field_res_users__Why_are_you_interested
+msgid "Why are you interested"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Why are you interested in becoming a mentor?:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Work Experience"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Work Experiences"
+msgstr ""
+
+#. module: custom_web
+#: code:addons/custom_web/controllers/main.py:0
+#, python-format
+msgid "Wrong login/password"
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__education_background
+#: model:ir.model.fields,field_description:custom_web.field_crm_lead__years_of_profession
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__years_of_profession
+#: model:ir.model.fields,field_description:custom_web.field_res_users__years_of_profession
+msgid "Year Of Profession"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "Yes"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor_register
+msgid "You Have Successfully Signed Up"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.donation
+msgid "Your Donation in Action"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentorssss
+msgid "Your Personal Information"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.reset_password
+msgid "Your Phone:"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.sign_up_thanks_ir_ui_view
+#: model_terms:website.page,arch_db:custom_web.sign_up_thanks
+msgid "Your Registeration has been successfully."
+msgstr ""
+
+#. module: custom_web
+#: model:ir.model.fields,field_description:custom_web.field_res_partner__description
+#: model:ir.model.fields,field_description:custom_web.field_res_users__description
+msgid "description"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "instagram link"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "level of education: *"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+msgid "select"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "select profession years"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "select professions"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "social media link"
+msgstr ""
+
+#. module: custom_web
+#: model_terms:ir.ui.view,arch_db:custom_web.mentee
+#: model_terms:ir.ui.view,arch_db:custom_web.mentor
+msgid "twitter link"
+msgstr ""

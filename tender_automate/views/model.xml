@@ -1,0 +1,42 @@
+<odoo>
+
+    <record id="purchase_tenderrr_tree" model="ir.ui.view">
+        <field name="name">Analyze Tenders</field>
+        <field name="model">purchase.tenderr</field>
+        <field name="arch" type="xml">
+            <tree string="Products in Tender" editable="top">
+                <field name="name" />
+                <field name="company"/>
+                <field name="qty"/>
+                <field name='unit_price'/>
+                <field name="total"/>
+                <field name="is_selected" attrs="{'readonly':[('is_selected','!=', False),('is_selected','!=',True)]}"/>
+                <button name="select" string="select" class="oe_highlight" type="object"/>
+                <!-- <button class="oe_stat_button btn-primary"
+                        attrs="{&quot;invisible&quot;: [[&quot;is_selected&quot;,&quot;=&quot;,True]]}"
+                        type="object" name="select">Select
+                </button> -->
+            </tree>
+        </field>
+    </record>
+
+
+
+    <record id="purchase_tenderrr_action" model="ir.actions.act_window">
+        <field name="name">Purchase Tender Lines</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">purchase.tenderr</field>
+        <field name="view_mode">kanban,tree</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a Sales Incentive
+            </p>
+        </field>
+    </record>
+    <!-- <menuitem
+            id="non_standard_foams"
+            name="gggggggggggggggggggggg"
+            parent="sale.menu_sales_config"
+            action="tender_automate.purchase_tenderrr_action"
+            sequence="10"/> -->
+</odoo>
