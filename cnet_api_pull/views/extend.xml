@@ -1,6 +1,6 @@
 <odoo>
         <data>
-        <record id="res_config_settings_view_form_sale_incentive" model="ir.ui.view">
+        <record id="res_config_settings_view_form_sale_cnet" model="ir.ui.view">
             <field name="name">res.config.settings.view.form.inherit.cnet.pull</field>
             <field name="model">res.config.settings</field>
             <field name="priority" eval="90"/>
@@ -89,8 +89,4 @@
             </xpath>
         </field>
     </record>
-
-
-
-
 </odoo>

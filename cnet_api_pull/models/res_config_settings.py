@@ -66,7 +66,7 @@ class ExtendSaleFor(models.Model):
                 dateutil.relativedelta.relativedelta(days=-15)
             endTime = endTime.strftime("%Y-%m-%d %H:%M:%S")
             startTime = startTime.strftime("%Y-%m-%d %H:%M:%S")
-        data = {"startDate": startTime, "endDate": endTime}
+        data = {"startDate": startTime, "endDate": endTime, "vtype": [106, 108, 167, 168]}
         header = {
             "Content-Type": "application/json", }
         response = requests.get(BASE_url + GET_SALES,
@@ -78,7 +78,7 @@ class ExtendSaleFor(models.Model):
             sale_data = sale_env.search([('name', '=', sale['voucherCode'])])
             if not sale_data:
                 # the sale order is new so lets create it
-                pay = sale['voucherDefinitiona']
+                pay = sale['voucherDefinition']
                 if pay == 106:
                     credit = 'Cash'
                 elif pay == 108:
@@ -107,7 +107,8 @@ class ExtendSaleFor(models.Model):
                     'cashier': self.find_or_create_employee(sale['cashier']).id,
                     'date_order': sale['quotation'].replace('T', ' ').split('.')[0],
                     'is_credit': credit,
-                    'payment_method': sale['paymentMethod']
+                    'payment_method': sale['paymentMethod'],
+                    "invoice_status": "to invoice"
                 })
                 for product in sale['products']:
                     prod_id = self.find_or_create_product(
@@ -116,7 +117,7 @@ class ExtendSaleFor(models.Model):
                         "product_id": prod_id.id,
                         "order_id": new_sale.id,
                         'name': prod_id.name,
-                        'price_unit': prod_id.list_price,
+                        'price_unit': product['unitPrice'],
                         'product_uom_qty': product['quantity'],
                         'customer_lead': 30,
                         'company_id': self.company_id.id,
@@ -213,7 +214,9 @@ class ExtendSaleFor(models.Model):
         _logger.info(vals)
         uom = self.env['uom.uom'].search([('cnet_code', '=', vals)])
         if not uom:
-            uom = self.env['uom.uom'].search([('id', '=', 1)])
+            uom = self.env['uom.uom'].search([],limit=1)
+        _logger.info(uom)
+        _logger.info('sdkajhdhaksjdhaksjhdjkashdjka')
         return uom
 
     def find_or_create(self, model, vals, search_param='name'):
@@ -224,75 +227,79 @@ class ExtendSaleFor(models.Model):
             element = model_env.create(vals)
         return element.id
 
-        def confirm_sale_orders(self):
-            _logger.info("YUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU1")
-            date_sale = datetime.datetime(2022, 1, 6)
-            mo = self.env['sale.order'].search(
-                [("invoice_status", "=", "to invoice"), ("cashier", '!=', False)], order="date_order asc")
+    def confirm_sale_orders(self):
+        _logger.info("YUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU1")
+        date_sale = datetime.datetime(2022, 1, 6)
+        mo = self.env['sale.order'].search(
+            [("state", "=", "draft"), ("cashier", '!=', False)], order="date_order asc")
 
-            _logger.info("YUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU2")
-            count_all = 0
-            count = 0
+        _logger.info("YUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU2")
+        _logger.info(mo)
+        count_all = 0
+        count = 0
 
-            # client = erppeek.Client('http://139.59.215.163:8055',
-            #                         'Lewis_Till_Jan_30', 'admin', 'Zmall8707Odoo')
-            # mo_back = client.model('mrp.production')
-            sales_not_to_be_validated = [
-                'CSPL3-47339-22', 'CSPL4-07772-22', 'CSPL3-47338-22']
-            for m in mo:
-                _logger.info(m.name)
-                count_all += 1
-                count += 1
-                _logger.info(m.payment_method)
-                _logger.info(m.cashier)
-                if m.state == 'draft':
-                    _logger.info(
-                        "*******************Sales**************************1")
-                    try:
-                        m.action_confirm()
-                    except:
-                        pass
-                    _logger.info(
-                        "*******************Sales**************************")
-                    _logger.info(count_all)
-                    if count > 5:
-                        count = 0
-                        self.env.cr.commit()
-
-        def action_confirm(self):
-            count = 1
-            # imediate_obj = self.env['stock.immediate.transfer']
-            res = super(SaleOrder, self).action_confirm()
-            for order in self:
-                order._create_invoices()
-
-                for invoice in order.invoice_ids:
-                    invoice.action_post()
-                    if order.website_id == False:
-                        j_id = order.cashier.x_studio_csh_account.id if order.cashier else False
-                        payment_vals = {
-                            'date': order.date_order,
-                            'amount': invoice.amount_total,
-                            'payment_type': 'inbound',
-                            'partner_type': 'customer',
-                            'journal_id': j_id,
-                            'currency_id': 79,
-                            'partner_id': invoice.partner_id.id,
-                            'partner_bank_id': False,
-                            'payment_method_id': 1,
-                            # 'destination_account_id':invoice.line_ids[0].account_id.id
-                        }
-                        pay = self.env['account.payment'].create(payment_vals)
-                        pay.action_post()
-                        domain = [('account_internal_type', 'in',
-                                   ('receivable', 'payable')), ('reconciled', '=', False)]
-                        payment_lines = pay.line_ids.filtered_domain(domain)
-                        for account in payment_lines.account_id:
-                            (payment_lines + invoice.line_ids).filtered_domain(
-                                [('account_id', '=', account.id), ('reconciled', '=', False)]).reconcile()
-                count = count+1
-                if count == 2:
-                    self.env.cr.commit()
+        # client = erppeek.Client('http://139.59.215.163:8055',
+        #                         'Lewis_Till_Jan_30', 'admin', 'Zmall8707Odoo')
+        # mo_back = client.model('mrp.production')
+        sales_not_to_be_validated = [
+            'CSPL3-47339-22', 'CSPL4-07772-22', 'CSPL3-47338-22']
+        for m in mo:
+            _logger.info(m.name)
+            count_all += 1
+            count += 1
+            _logger.info(m.payment_method)
+            _logger.info(m.cashier)
+            if m.state == 'draft':
+                _logger.info(
+                    "*******************Sales**************************1")
+                try:
+                    m.action_confirm()
+                except Exception as e:
+                    _logger.info(e)
+                    pass
+                _logger.info(
+                    "*******************Sales**************************")
+                _logger.info(count_all)
+                if count > 5:
                     count = 0
+                    self.env.cr.commit()
 
-            return res
+    def action_confirm(self):
+        count = 1
+        # imediate_obj = self.env['stock.immediate.transfer']
+        res = super(ExtendSaleFor, self).action_confirm()
+        for order in self:
+            order._create_invoices()
+            _logger.info('created invoicessss')
+
+            for invoice in order.invoice_ids:
+                invoice.action_post()
+                if order.website_id == False:
+                    _logger.info('hiiiiiiiiiiiiiiiiiiiiiiiii')
+                    j_id = order.cashier.x_studio_csh_account.id if order.cashier else False
+                    payment_vals = {
+                        'date': order.date_order,
+                        'amount': invoice.amount_total,
+                        'payment_type': 'inbound',
+                        'partner_type': 'customer',
+                        'journal_id': j_id,
+                        'currency_id': 79,
+                        'partner_id': invoice.partner_id.id,
+                        'partner_bank_id': False,
+                        'payment_method_id': 1,
+                        # 'destination_account_id':invoice.line_ids[0].account_id.id
+                    }
+                    pay = self.env['account.payment'].create(payment_vals)
+                    pay.action_post()
+                    domain = [('account_internal_type', 'in',
+                                ('receivable', 'payable')), ('reconciled', '=', False)]
+                    payment_lines = pay.line_ids.filtered_domain(domain)
+                    for account in payment_lines.account_id:
+                        (payment_lines + invoice.line_ids).filtered_domain(
+                            [('account_id', '=', account.id), ('reconciled', '=', False)]).reconcile()
+            count = count+1
+            if count == 2:
+                self.env.cr.commit()
+                count = 0
+
+        return res
